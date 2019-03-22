@@ -11,8 +11,8 @@
     <modules>
         <module>service-contract</module>
         <module>service-provider</module>
-        <module>consumer</module>
         <module>service-consumer</module>
+        <module>service-dao</module>
     </modules>
 
 
