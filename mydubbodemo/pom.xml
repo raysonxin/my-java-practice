@@ -12,7 +12,7 @@
         <module>service-contract</module>
         <module>service-provider</module>
         <module>service-consumer</module>
-        <module>service-dao</module>
+        <module>service-daos</module>
     </modules>
 
 

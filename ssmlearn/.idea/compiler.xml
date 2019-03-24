@@ -6,17 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service-consumer" />
-        <module name="service-contract" />
-        <module name="service-provider" />
-        <module name="serviceconsumer" />
-        <module name="servicecontract" />
-        <module name="servicedaos" />
-        <module name="serviceprovider" />
+        <module name="ssmlearn" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="servicedao" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
