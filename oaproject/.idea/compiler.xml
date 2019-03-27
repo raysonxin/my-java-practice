@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ssm-learn" />
-        <module name="ssmlearn" />
+        <module name="oaproject" />
+        <module name="oaprojectdao" />
       </profile>
     </annotationProcessing>
   </component>
