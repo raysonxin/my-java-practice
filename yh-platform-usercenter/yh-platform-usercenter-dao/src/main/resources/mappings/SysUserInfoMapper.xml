@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yh.platform.usercenter.dao.SysUserInfoMapper">
+  <resultMap id="BaseResultMap" type="com.yh.platform.usercenter.model.SysUserInfo">
+    <id column="ID" jdbcType="BIGINT" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="SEX" jdbcType="VARCHAR" property="sex" />
+    <result column="BIRTHDATE" jdbcType="VARCHAR" property="birthdate" />
+    <result column="MOBILE_PHONE" jdbcType="VARCHAR" property="mobilePhone" />
+    <result column="AVATAR" jdbcType="VARCHAR" property="avatar" />
+    <result column="MODIFIY_USER" jdbcType="VARCHAR" property="modifiyUser" />
+    <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+
+</mapper>
