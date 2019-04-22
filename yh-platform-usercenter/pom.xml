@@ -13,7 +13,7 @@
         <module>yh-platform-usercenter-facade</module>
         <module>yh-platform-usercenter-service</module>
         <module>yh-platform-usercenter-dao</module>
+        <module>yh-platform-usercenter-test</module>
     </modules>
-
 
 </project>

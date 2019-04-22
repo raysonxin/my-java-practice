@@ -10,6 +10,7 @@
         <module name="yh-platform-usercenter-facade" />
         <module name="yh-platform-usercenter-facade-stub" />
         <module name="yh-platform-usercenter-service" />
+        <module name="yh-platform-usercenter-test" />
       </profile>
     </annotationProcessing>
   </component>
