@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yonghui.platform.usercenter.mapper.SysPlatformUserDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.yonghui.platform.usercenter.model.SysPlatformUser">
+        <id column="ID" property="id" />
+        <result column="USER_ID" property="userId" />
+        <result column="PLATFORM_TYPE" property="platformType" />
+        <result column="BIND_CODE" property="bindCode" />
+        <result column="BIND_TIME" property="bindTime" />
+        <result column="BIND_OTHER_DATA" property="bindOtherData" />
+    </resultMap>
+
+</mapper>

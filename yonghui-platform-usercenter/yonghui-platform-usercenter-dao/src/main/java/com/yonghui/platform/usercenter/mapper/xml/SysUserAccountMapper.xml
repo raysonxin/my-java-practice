@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yonghui.platform.usercenter.mapper.SysUserAccountDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.yonghui.platform.usercenter.model.SysUserAccount">
+        <id column="ID" property="id" />
+        <result column="ACCOUNT_NO" property="accountNo" />
+        <result column="MOBILE_PHONE" property="mobilePhone" />
+        <result column="EMAIL" property="email" />
+        <result column="PASSWORD" property="password" />
+        <result column="STATUS" property="status" />
+        <result column="CREATE_TIME" property="createTime" />
+        <result column="MODIFY_TIME" property="modifyTime" />
+        <result column="DELETE_TIME" property="deleteTime" />
+    </resultMap>
+
+</mapper>
