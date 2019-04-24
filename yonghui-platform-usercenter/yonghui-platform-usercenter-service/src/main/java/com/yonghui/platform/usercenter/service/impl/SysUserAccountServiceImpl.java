@@ -1,7 +1,7 @@
 package com.yonghui.platform.usercenter.service.impl;
 
 import com.yonghui.platform.usercenter.model.SysUserAccount;
-import com.yonghui.platform.usercenter.mapper.SysUserAccountDao;
+import com.yonghui.platform.usercenter.dao.SysUserAccountDao;
 import com.yonghui.platform.usercenter.service.ISysUserAccountService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

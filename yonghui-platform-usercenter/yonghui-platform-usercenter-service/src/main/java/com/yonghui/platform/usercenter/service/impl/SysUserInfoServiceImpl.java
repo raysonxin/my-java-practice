@@ -1,9 +1,8 @@
 package com.yonghui.platform.usercenter.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.yonghui.platform.usercenter.model.SysUserInfo;
-import com.yonghui.platform.usercenter.mapper.SysUserInfoDao;
+import com.yonghui.platform.usercenter.dao.SysUserInfoDao;
 import com.yonghui.platform.usercenter.service.ISysUserInfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
@@ -21,7 +20,6 @@ public class SysUserInfoServiceImpl extends ServiceImpl<SysUserInfoDao, SysUserI
 
     @Override
     public SysUserInfo getByName(String name) {
-
 
         SysUserInfo userInfo = this.getOne(new QueryWrapper<SysUserInfo>()
                 .lambda()

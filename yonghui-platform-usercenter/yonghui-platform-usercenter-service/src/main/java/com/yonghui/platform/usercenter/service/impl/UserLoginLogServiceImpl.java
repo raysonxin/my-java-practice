@@ -1,7 +1,7 @@
 package com.yonghui.platform.usercenter.service.impl;
 
 import com.yonghui.platform.usercenter.model.UserLoginLog;
-import com.yonghui.platform.usercenter.mapper.UserLoginLogDao;
+import com.yonghui.platform.usercenter.dao.UserLoginLogDao;
 import com.yonghui.platform.usercenter.service.IUserLoginLogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

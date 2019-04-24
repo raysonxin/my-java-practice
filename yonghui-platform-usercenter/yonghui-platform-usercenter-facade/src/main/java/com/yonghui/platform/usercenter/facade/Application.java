@@ -6,10 +6,13 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
+@ComponentScan(basePackages = {
+        "com.yonghui.platform.usercenter.service",
+        "com.yonghui.platform.usercenter.facade.impl"}
+)
+@MapperScan("com.yonghui.platform.usercenter.dao")
 @Slf4j
 @SpringBootApplication
-@ComponentScan("com.yonghui.platform.usercenter.service")
-@MapperScan("com.yonghui.platform.usercenter.mapper")
 public class Application {
 
     public static void main(String[] args) {
